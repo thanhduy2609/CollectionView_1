@@ -14,6 +14,7 @@
 		30F3FE8F1EB46E3B008ED807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F3FE8D1EB46E3B008ED807 /* LaunchScreen.storyboard */; };
 		30F3FE9A1EB46E3B008ED807 /* CollectionView_RecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FE991EB46E3B008ED807 /* CollectionView_RecordTests.swift */; };
 		30F3FEA51EB46E3B008ED807 /* CollectionView_RecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FEA41EB46E3B008ED807 /* CollectionView_RecordUITests.swift */; };
+		30F3FEB31EB46EB8008ED807 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F3FEB21EB46EB8008ED807 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		30F3FEA01EB46E3B008ED807 /* CollectionView_RecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionView_RecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F3FEA41EB46E3B008ED807 /* CollectionView_RecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView_RecordUITests.swift; sourceTree = "<group>"; };
 		30F3FEA61EB46E3B008ED807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F3FEB21EB46EB8008ED807 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				30F3FE8B1EB46E3B008ED807 /* Assets.xcassets */,
 				30F3FE8D1EB46E3B008ED807 /* LaunchScreen.storyboard */,
 				30F3FE901EB46E3B008ED807 /* Info.plist */,
+				30F3FEB21EB46EB8008ED807 /* MyCollectionViewCell.swift */,
 			);
 			path = CollectionView_Record;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				30F3FE871EB46E3B008ED807 /* ViewController.swift in Sources */,
 				30F3FE851EB46E3B008ED807 /* AppDelegate.swift in Sources */,
+				30F3FEB31EB46EB8008ED807 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
